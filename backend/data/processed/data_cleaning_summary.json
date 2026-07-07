@@ -1,0 +1,18 @@
+{
+  "raw_row_count": 10000,
+  "raw_column_count": 33,
+  "target_distribution_before_cleaning": {
+    "0.0": 6620,
+    "1.0": 2880,
+    "NaN": 500
+  },
+  "missing_target_count": 500,
+  "rows_removed_missing_target": 500,
+  "duplicate_count_before_cleaning": 98,
+  "rows_removed_duplicates": 98,
+  "final_training_row_count": 9402,
+  "target_distribution_after_cleaning": {
+    "0.0": 6538,
+    "1.0": 2864
+  }
+}

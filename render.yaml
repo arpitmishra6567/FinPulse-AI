@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: finpulse-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements-runtime.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: CORS_ORIGINS
+        sync: false

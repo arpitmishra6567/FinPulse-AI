@@ -1,0 +1,36 @@
+{
+  "numerical": [
+    "SME_Age",
+    "SME_Type",
+    "Industry_Sector",
+    "SME_Size_Category",
+    "Literacy_Accounting",
+    "Literacy_Budgeting",
+    "Literacy_Investment_Evaluation",
+    "Literacy_Credit_Knowledge",
+    "Risk_Awareness",
+    "Risk_Evaluation",
+    "Risk_Mitigation_Strategies",
+    "Risk_Taking_Willingness",
+    "Assessment_Data_Driven",
+    "Assessment_Expert_Consultation",
+    "Assessment_Scenario_Analysis",
+    "Assessment_Internal_Evaluation",
+    "Decision_Autonomy",
+    "Decision_Consultation",
+    "Decision_Financial_Advisor",
+    "Decision_Strategic_Alignment",
+    "Decision_Investment_Choices",
+    "Decision_Capital_Allocation",
+    "Decision_CashFlow_Management",
+    "Analysis_Accounting_Tools",
+    "Analysis_Financial_Ratios",
+    "Analysis_Forecasting",
+    "Analysis_Benchmarking",
+    "Liquidity_Stability",
+    "Uses_Digital_Finance"
+  ],
+  "categorical": [
+    "Annual_Revenue_Category"
+  ]
+}

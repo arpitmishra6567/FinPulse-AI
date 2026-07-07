@@ -1,0 +1,22 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+.next/
+kaggle.json
+backend/ml/artifacts/*.joblib
+*.db
+*.log
+.pytest_cache/
+
+# Local environment files
+.env.local
+.env.*.local
+frontend/.env.local
+
+# Build/runtime artifacts
+dist/
+coverage/
+.DS_Store

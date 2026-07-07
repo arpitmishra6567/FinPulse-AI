@@ -1,0 +1,171 @@
+{
+  "target": "Financial_Distress",
+  "audit": [
+    {
+      "column_name": "Has_Financial_Questions",
+      "decision": "excluded",
+      "reason": "Constant value ('YES') for all rows -> zero variance, no signal."
+    },
+    {
+      "column_name": "SME_Age",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "SME_Type",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Industry_Sector",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "SME_Size_Category",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Literacy_Accounting",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Literacy_Budgeting",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Literacy_Investment_Evaluation",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Literacy_Credit_Knowledge",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Risk_Awareness",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Risk_Evaluation",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Risk_Mitigation_Strategies",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Risk_Taking_Willingness",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Assessment_Data_Driven",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Assessment_Expert_Consultation",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Assessment_Scenario_Analysis",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Assessment_Internal_Evaluation",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Decision_Autonomy",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Decision_Consultation",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Decision_Financial_Advisor",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Decision_Strategic_Alignment",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Decision_Investment_Choices",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Decision_Loan_Approval",
+      "decision": "excluded",
+      "reason": "Suspected downstream credit decision -> excluded by default (leakage policy)."
+    },
+    {
+      "column_name": "Decision_Capital_Allocation",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Decision_CashFlow_Management",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Analysis_Accounting_Tools",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Analysis_Financial_Ratios",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Analysis_Forecasting",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Analysis_Benchmarking",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Liquidity_Stability",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Uses_Digital_Finance",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Annual_Revenue_Category",
+      "decision": "included",
+      "reason": "Pre-outcome self-reported financial capability/behaviour signal."
+    },
+    {
+      "column_name": "Financial_Distress",
+      "decision": "target",
+      "reason": "Supervised label: 1 = financial distress."
+    }
+  ],
+  "decision_loan_approval_excluded": true
+}

@@ -1,0 +1,91 @@
+{
+  "results": [
+    {
+      "model": "logistic_regression",
+      "classes_": [
+        0.0,
+        1.0
+      ],
+      "positive_probability_index": 1,
+      "accuracy": 0.5635300372142478,
+      "roc_auc": 0.6199745424852299,
+      "pr_auc": 0.4024246236241368,
+      "precision": 0.36550976138828634,
+      "recall": 0.5881326352530541,
+      "f1": 0.4508361204013378,
+      "brier": 0.24071644273398857,
+      "confusion_matrix": [
+        [
+          723,
+          585
+        ],
+        [
+          236,
+          337
+        ]
+      ],
+      "selection_status": "selected"
+    },
+    {
+      "model": "random_forest",
+      "classes_": [
+        0.0,
+        1.0
+      ],
+      "positive_probability_index": 1,
+      "accuracy": 0.6560340244550771,
+      "roc_auc": 0.5704678151901841,
+      "pr_auc": 0.3460184781910998,
+      "precision": 0.3669064748201439,
+      "recall": 0.17801047120418848,
+      "f1": 0.23971797884841364,
+      "brier": 0.22630941216197104,
+      "confusion_matrix": [
+        [
+          1132,
+          176
+        ],
+        [
+          471,
+          102
+        ]
+      ],
+      "selection_status": "rejected"
+    },
+    {
+      "model": "xgboost",
+      "classes_": [
+        0.0,
+        1.0
+      ],
+      "positive_probability_index": 1,
+      "accuracy": 0.5879851143009037,
+      "roc_auc": 0.6081077114388033,
+      "pr_auc": 0.3745096368796951,
+      "precision": 0.38089622641509435,
+      "recall": 0.5636998254799301,
+      "f1": 0.4546094299788881,
+      "brier": 0.2406943999964101,
+      "confusion_matrix": [
+        [
+          783,
+          525
+        ],
+        [
+          250,
+          323
+        ]
+      ],
+      "selection_status": "rejected"
+    }
+  ],
+  "selection_rationale": "Ranked by PR-AUC, then distress recall, ROC-AUC, F1, Brier (minority-class focus).",
+  "substitution": null,
+  "class_balance": {
+    "train_counts": {
+      "0.0": 5230,
+      "1.0": 2291
+    },
+    "imbalance_ratio": 2.2828459188127455
+  }
+}

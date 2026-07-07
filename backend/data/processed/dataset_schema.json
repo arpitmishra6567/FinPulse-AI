@@ -1,0 +1,408 @@
+{
+  "filename": "Finanical_data_sme.csv",
+  "rows": 10000,
+  "columns": 33,
+  "column_names": [
+    "Has_Financial_Questions",
+    "SME_Age",
+    "SME_Type",
+    "Industry_Sector",
+    "SME_Size_Category",
+    "Literacy_Accounting",
+    "Literacy_Budgeting",
+    "Literacy_Investment_Evaluation",
+    "Literacy_Credit_Knowledge",
+    "Risk_Awareness",
+    "Risk_Evaluation",
+    "Risk_Mitigation_Strategies",
+    "Risk_Taking_Willingness",
+    "Assessment_Data_Driven",
+    "Assessment_Expert_Consultation",
+    "Assessment_Scenario_Analysis",
+    "Assessment_Internal_Evaluation",
+    "Decision_Autonomy",
+    "Decision_Consultation",
+    "Decision_Financial_Advisor",
+    "Decision_Strategic_Alignment",
+    "Decision_Investment_Choices",
+    "Decision_Loan_Approval",
+    "Decision_Capital_Allocation",
+    "Decision_CashFlow_Management",
+    "Analysis_Accounting_Tools",
+    "Analysis_Financial_Ratios",
+    "Analysis_Forecasting",
+    "Analysis_Benchmarking",
+    "Liquidity_Stability",
+    "Uses_Digital_Finance",
+    "Annual_Revenue_Category",
+    "Financial_Distress"
+  ],
+  "dtypes": {
+    "Has_Financial_Questions": "object",
+    "SME_Age": "int64",
+    "SME_Type": "int64",
+    "Industry_Sector": "int64",
+    "SME_Size_Category": "int64",
+    "Literacy_Accounting": "int64",
+    "Literacy_Budgeting": "int64",
+    "Literacy_Investment_Evaluation": "int64",
+    "Literacy_Credit_Knowledge": "float64",
+    "Risk_Awareness": "int64",
+    "Risk_Evaluation": "int64",
+    "Risk_Mitigation_Strategies": "int64",
+    "Risk_Taking_Willingness": "int64",
+    "Assessment_Data_Driven": "int64",
+    "Assessment_Expert_Consultation": "float64",
+    "Assessment_Scenario_Analysis": "int64",
+    "Assessment_Internal_Evaluation": "int64",
+    "Decision_Autonomy": "int64",
+    "Decision_Consultation": "int64",
+    "Decision_Financial_Advisor": "int64",
+    "Decision_Strategic_Alignment": "float64",
+    "Decision_Investment_Choices": "int64",
+    "Decision_Loan_Approval": "int64",
+    "Decision_Capital_Allocation": "int64",
+    "Decision_CashFlow_Management": "int64",
+    "Analysis_Accounting_Tools": "int64",
+    "Analysis_Financial_Ratios": "int64",
+    "Analysis_Forecasting": "int64",
+    "Analysis_Benchmarking": "float64",
+    "Liquidity_Stability": "int64",
+    "Uses_Digital_Finance": "int64",
+    "Annual_Revenue_Category": "object",
+    "Financial_Distress": "float64"
+  },
+  "missing_per_column": {
+    "Has_Financial_Questions": 0,
+    "SME_Age": 0,
+    "SME_Type": 0,
+    "Industry_Sector": 0,
+    "SME_Size_Category": 0,
+    "Literacy_Accounting": 0,
+    "Literacy_Budgeting": 0,
+    "Literacy_Investment_Evaluation": 0,
+    "Literacy_Credit_Knowledge": 500,
+    "Risk_Awareness": 0,
+    "Risk_Evaluation": 0,
+    "Risk_Mitigation_Strategies": 0,
+    "Risk_Taking_Willingness": 0,
+    "Assessment_Data_Driven": 0,
+    "Assessment_Expert_Consultation": 500,
+    "Assessment_Scenario_Analysis": 0,
+    "Assessment_Internal_Evaluation": 0,
+    "Decision_Autonomy": 0,
+    "Decision_Consultation": 0,
+    "Decision_Financial_Advisor": 0,
+    "Decision_Strategic_Alignment": 500,
+    "Decision_Investment_Choices": 0,
+    "Decision_Loan_Approval": 0,
+    "Decision_Capital_Allocation": 0,
+    "Decision_CashFlow_Management": 0,
+    "Analysis_Accounting_Tools": 0,
+    "Analysis_Financial_Ratios": 0,
+    "Analysis_Forecasting": 0,
+    "Analysis_Benchmarking": 498,
+    "Liquidity_Stability": 0,
+    "Uses_Digital_Finance": 0,
+    "Annual_Revenue_Category": 0,
+    "Financial_Distress": 500
+  },
+  "duplicate_rows": 99,
+  "low_cardinality_uniques": {
+    "Has_Financial_Questions": [
+      "YES"
+    ],
+    "SME_Age": [
+      1,
+      2,
+      3
+    ],
+    "SME_Type": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "Industry_Sector": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "SME_Size_Category": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Literacy_Accounting": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      10
+    ],
+    "Literacy_Budgeting": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Literacy_Investment_Evaluation": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "Literacy_Credit_Knowledge": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "Risk_Awareness": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Risk_Evaluation": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      10
+    ],
+    "Risk_Mitigation_Strategies": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Risk_Taking_Willingness": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Assessment_Data_Driven": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Assessment_Expert_Consultation": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "Assessment_Scenario_Analysis": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Assessment_Internal_Evaluation": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "Decision_Autonomy": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Decision_Consultation": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Decision_Financial_Advisor": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "Decision_Strategic_Alignment": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "Decision_Investment_Choices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Decision_Loan_Approval": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "Decision_Capital_Allocation": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Decision_CashFlow_Management": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "Analysis_Accounting_Tools": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Analysis_Financial_Ratios": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Analysis_Forecasting": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "Analysis_Benchmarking": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      10.0
+    ],
+    "Liquidity_Stability": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Uses_Digital_Finance": [
+      0,
+      1
+    ],
+    "Annual_Revenue_Category": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Financial_Distress": [
+      0.0,
+      1.0
+    ]
+  },
+  "numerical_columns": [
+    "SME_Age",
+    "SME_Type",
+    "Industry_Sector",
+    "SME_Size_Category",
+    "Literacy_Accounting",
+    "Literacy_Budgeting",
+    "Literacy_Investment_Evaluation",
+    "Literacy_Credit_Knowledge",
+    "Risk_Awareness",
+    "Risk_Evaluation",
+    "Risk_Mitigation_Strategies",
+    "Risk_Taking_Willingness",
+    "Assessment_Data_Driven",
+    "Assessment_Expert_Consultation",
+    "Assessment_Scenario_Analysis",
+    "Assessment_Internal_Evaluation",
+    "Decision_Autonomy",
+    "Decision_Consultation",
+    "Decision_Financial_Advisor",
+    "Decision_Strategic_Alignment",
+    "Decision_Investment_Choices",
+    "Decision_Loan_Approval",
+    "Decision_Capital_Allocation",
+    "Decision_CashFlow_Management",
+    "Analysis_Accounting_Tools",
+    "Analysis_Financial_Ratios",
+    "Analysis_Forecasting",
+    "Analysis_Benchmarking",
+    "Liquidity_Stability",
+    "Uses_Digital_Finance",
+    "Financial_Distress"
+  ],
+  "categorical_columns": [
+    "Has_Financial_Questions",
+    "Annual_Revenue_Category"
+  ],
+  "candidate_targets": [
+    "Financial_Distress"
+  ],
+  "target_distribution": {
+    "0.0": 6620,
+    "1.0": 2880,
+    "NaN": 500
+  },
+  "out_of_scale_flags": {
+    "SME_Age": 0,
+    "SME_Type": 0,
+    "Industry_Sector": 0,
+    "SME_Size_Category": 0,
+    "Literacy_Accounting": 59,
+    "Literacy_Budgeting": 0,
+    "Literacy_Investment_Evaluation": 0,
+    "Literacy_Credit_Knowledge": 0,
+    "Risk_Awareness": 0,
+    "Risk_Evaluation": 62,
+    "Risk_Mitigation_Strategies": 0,
+    "Risk_Taking_Willingness": 0,
+    "Assessment_Data_Driven": 0,
+    "Assessment_Expert_Consultation": 0,
+    "Assessment_Scenario_Analysis": 0,
+    "Assessment_Internal_Evaluation": 0,
+    "Decision_Autonomy": 0,
+    "Decision_Consultation": 0,
+    "Decision_Financial_Advisor": 0,
+    "Decision_Strategic_Alignment": 0,
+    "Decision_Investment_Choices": 0,
+    "Decision_Loan_Approval": 0,
+    "Decision_Capital_Allocation": 0,
+    "Decision_CashFlow_Management": 0,
+    "Analysis_Accounting_Tools": 0,
+    "Analysis_Financial_Ratios": 0,
+    "Analysis_Forecasting": 0,
+    "Analysis_Benchmarking": 66,
+    "Liquidity_Stability": 0
+  },
+  "provenance": "public_dataset"
+}

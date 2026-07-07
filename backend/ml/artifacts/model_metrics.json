@@ -1,0 +1,26 @@
+{
+  "model": "logistic_regression",
+  "classes_": [
+    0.0,
+    1.0
+  ],
+  "positive_probability_index": 1,
+  "accuracy": 0.5635300372142478,
+  "roc_auc": 0.6199745424852299,
+  "pr_auc": 0.4024246236241368,
+  "precision": 0.36550976138828634,
+  "recall": 0.5881326352530541,
+  "f1": 0.4508361204013378,
+  "brier": 0.24071644273398857,
+  "confusion_matrix": [
+    [
+      723,
+      585
+    ],
+    [
+      236,
+      337
+    ]
+  ],
+  "selection_status": "selected"
+}
