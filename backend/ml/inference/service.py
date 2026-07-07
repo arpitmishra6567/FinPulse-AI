@@ -10,8 +10,8 @@ class InferenceService:
             self.model = joblib.load(ART / "model.joblib")
             self.meta = json.loads((ART / "model_metadata.json").read_text())
             self.status = self.meta.get("model_status", "trained_model")
-        except Exception:
-            pass  # app must still start
+        except Exception as e:
+            print(f"[FinPulse] Model load failed: {type(e).__name__}: {e}")
     @property
     def model_name(self): return self.meta.get("model_name", "none")
     def risk_probability(self, raw_features: dict) -> dict:
