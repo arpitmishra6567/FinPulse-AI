@@ -6,7 +6,6 @@ __pycache__/
 node_modules/
 .next/
 kaggle.json
-backend/ml/artifacts/*.joblib
 *.db
 *.log
 .pytest_cache/
@@ -20,3 +19,6 @@ frontend/.env.local
 dist/
 coverage/
 .DS_Store
+
+# FinPulse ships the verified trained model artifact used by InferenceService.
+# Do not ignore backend/ml/artifacts/model.joblib.
